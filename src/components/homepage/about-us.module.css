@@ -1,0 +1,48 @@
+@import "../theme-variables.css";
+
+.aboutUs{
+	padding-top: 150px;
+}
+.sideBox{
+	position: relative;
+	display: block;
+	max-width: 66%;
+}
+.sideBox  img{
+	position: absolute;
+	z-index: -1;
+	top: 15rem;
+}
+.topContent{
+	text-align: center;
+	max-width: 65%;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+.bottomContent{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 200px;
+}
+.cardStack{
+	width: 40%;
+	gap: 21px;
+	display: flex;
+	flex-direction: column;
+}
+.pictureStack{
+	margin: auto 0;
+	align-items: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+.pictureStack h2{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.pictureStack img{
+	margin-bottom: 0;
+}

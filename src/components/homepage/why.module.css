@@ -1,0 +1,42 @@
+@import "../theme-variables.css";
+
+.whySection{
+
+}
+.flexBox{
+	display: flex;
+	justify-content: space-between;
+}
+.pictureStack{
+	margin: auto 0;
+	align-items: center;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+.pictureStack h2{
+	width: 100%;
+	margin-bottom: 0;
+}
+.pictureStack img{
+	margin-bottom: 0;
+}
+.cardStack{
+	width: 40%;
+	gap: 21px;
+	display: flex;
+	flex-direction: column;
+}
+.sideBox{
+	position: relative;
+	display: block;
+	width: 40%;
+	float: right;
+}
+.sideBox  img{
+	position: absolute;
+	z-index: -1;
+	top: -40em;
+	right: 0;
+}

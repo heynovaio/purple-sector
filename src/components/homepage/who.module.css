@@ -1,0 +1,40 @@
+@import "../theme-variables.css";
+
+.whoSection{
+	margin-top: 80px;
+	margin-bottom: 100px;
+	background: #F7F7F7;
+}
+.squiggleTop,.squiggleBottom{
+	position: relative;
+	width: 100%;
+}
+.squiggleTop img,.squiggleBottom img{
+	position: absolute;
+	width: 100vw;
+	z-index: -1;
+	margin: 0;
+}
+.squiggleTop img{
+	bottom: 0;
+}	
+.whoHeader{
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.whoHeader p{
+	font-size: 20px;
+	line-height: 150%;
+	padding-top: 10px;
+}
+.whoPanel{
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+.whoCard{
+	text-align: center;
+	width: 22%;
+}
