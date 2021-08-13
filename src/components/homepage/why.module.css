@@ -1,32 +1,37 @@
-@import "../theme-variables.css";
-
 .whySection{
 
 }
 .flexBox{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 80px;
+
 }
 .pictureStack{
 	margin: auto 0;
-	align-items: center;
-	width: 50%;
+	align-items: flex-start;
+	text-align: left;
+	max-width: 672px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
+	flex: 1 400px;
 }
 .pictureStack h2{
-	width: 100%;
 	margin-bottom: 0;
 }
 .pictureStack img{
 	margin-bottom: 0;
 }
 .cardStack{
-	width: 40%;
+	max-width: 478px;
+	width: 100%;
 	gap: 21px;
 	display: flex;
 	flex-direction: column;
+	z-index: 1;
 }
 .sideBox{
 	position: relative;
@@ -36,7 +41,7 @@
 }
 .sideBox  img{
 	position: absolute;
-	z-index: -1;
+	z-index: 0;
 	top: -40em;
 	right: 0;
 }

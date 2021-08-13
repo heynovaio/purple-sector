@@ -7,7 +7,7 @@ import icon2 from "../../images/icon-6.svg"
 import icon3 from "../../images/icon-7.svg"
 import icon4 from "../../images/icon-8.svg"
 
-const What = ({  }) => (
+const What = () => (
   <section className={styles.whatSection}>
     <div className="ContentContainer">
       <h2>What you get</h2>

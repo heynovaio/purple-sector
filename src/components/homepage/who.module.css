@@ -1,4 +1,4 @@
-@import "../theme-variables.css";
+
 
 .whoSection{
 	margin-top: 80px;
@@ -19,7 +19,8 @@
 	bottom: 0;
 }	
 .whoHeader{
-	width: 60%;
+	width: 100%;
+	max-width: 650px;
 	padding: 20px;
 	margin: 0 auto;
 	text-align: center;
@@ -31,10 +32,12 @@
 }
 .whoPanel{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	padding: 40px 0;
 }
 .whoCard{
 	text-align: center;
-	width: 22%;
+	max-width: 255px;
+	width: 100%; 
 }

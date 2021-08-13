@@ -1,7 +1,7 @@
-@import "../theme-variables.css";
+
 
 .aboutUs{
-	padding-top: 150px;
+	padding-top: 10%;
 }
 .sideBox{
 	position: relative;
@@ -15,17 +15,21 @@
 }
 .topContent{
 	text-align: center;
-	max-width: 65%;
+	max-width: 692px;
+	width: 100%;
 	padding: 0 40px;
 	margin: 0 auto;
 }
 .bottomContent{
 	display: flex;
-	justify-content: space-between;
-	padding-top: 200px;
+	justify-content: space-evenly;
+	padding-top: 15%;
+	flex-wrap: wrap-reverse;
+	gap: 80px;
 }
 .cardStack{
-	width: 40%;
+	max-width: 478px;
+	width: 100%;
 	gap: 21px;
 	display: flex;
 	flex-direction: column;
@@ -33,10 +37,12 @@
 .pictureStack{
 	margin: auto 0;
 	align-items: center;
-	width: 50%;
+	max-width: 672px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
+	flex: 1 400px;
 }
 .pictureStack h2{
 	width: 100%;
@@ -45,4 +51,9 @@
 
 .pictureStack img{
 	margin-bottom: 0;
+}
+@media screen and (max-width: 650px){
+	.sideBox img{
+		visibility: hidden;
+	}	
 }

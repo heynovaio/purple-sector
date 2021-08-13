@@ -2,16 +2,16 @@ import * as React from "react"
 import * as styles from "./why.module.css"
 import { Link } from "gatsby"
 
-import img1 from "../../images/mechanics.svg"
-import img2 from "../../images/side-blob2.svg"
+import blob from "../../images/side-blob2.svg"
+import groupPic from "../../images/july2021.png"
 
-const Why = ({  }) => (
+const Why = () => (
   <section className={styles.whySection}>
     <div className="ContentContainer">
       <div className={styles.flexBox}>
         <div className={styles.pictureStack}>
-          <h2>We can <mark>help</mark> you</h2>
-          <img role="presentation" alt="" src={img1}/>
+          <h2>Why Purple Sector</h2>
+          <img role="presentation" alt="" src={groupPic}/>
           <Link className="learnBtn" to="/contact/">Learn more about us</Link>
         </div>
         <div className={styles.cardStack}>
@@ -38,7 +38,7 @@ const Why = ({  }) => (
       </div>
     </div>
     <div className={styles.sideBox}>
-      <img role="presentation" alt="" src={img2}/>
+      <img role="presentation" alt="" src={blob}/>
     </div>
   </section>
 )

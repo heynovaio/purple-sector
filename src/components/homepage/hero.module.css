@@ -1,9 +1,10 @@
-@import "../theme-variables.css";
+.hero{
 
-
+}
 .heroBox{
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 }
 .textBox{
 	width: 60%;
@@ -12,10 +13,14 @@
 }
 
 .shapeBox{
-	width:  458px;
-	position:  relative;
-	transform: translateY(-100px);
-	height: auto;	
+	max-width:  458px;
+	width: 100%;
+	position:  absolute;
+	transform: translateY(-3.5rem);
+	height: auto;
+	right: -20px;
+	top: 0;
+	z-index: -2;	
 }
 
 .shapeBox img{
@@ -24,7 +29,8 @@
 .shapeBox img:nth-child(1){
 	z-index: 3;
 	right:  33%;
-	top: 50%;
+	top: 400px;
+	transition: right 1s linear, top 1s linear, width 1s linear;
 }
 .shapeBox img:nth-child(2){
 	z-index: 2;
@@ -33,4 +39,26 @@
 .shapeBox img:nth-child(3){
 	z-index: 1;
 	right: 0;
+}
+
+@media screen and (max-width: 950px){
+	.textBox{
+		width: 100%;
+		margin: 0 auto;
+		
+	}
+	.textBox h1{
+		padding: 17% 0 10% 0;
+	}
+	.shapeBox img:nth-child(1){
+		right: 0;
+		top: 100%;
+		width: 25%;
+	}
+	/*.shapeBox{
+		width: 0;
+	}
+	.hero img{
+		visibility: hidden;
+	}*/
 }

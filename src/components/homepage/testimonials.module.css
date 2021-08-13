@@ -1,0 +1,44 @@
+
+
+
+.sliderWrapper {
+  padding: 40px;
+}
+
+.topWrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 5%;
+  margin-bottom: 60px;
+  flex-direction: row;
+}
+.topWrapper h3{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -1.8px;
+  width: 20%;
+  margin: 0;
+}
+
+.topWrapper img{
+  height: 80%;
+  margin: auto 0;
+  max-width: 250px;
+}
+@media screen and (max-width: 1024px){
+  .topWrapper{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+  .topWrapper h3{
+    width: 100%;
+    font-size: 50px;
+  }
+  .topWrapper img{
+    max-width: 50%;
+  }
+}

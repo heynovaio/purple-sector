@@ -1,3 +1,5 @@
+@import "./theme-variables.css";
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -308,8 +310,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -414,7 +415,7 @@ p {
   margin-bottom: 1.45rem;
 
   font-size: 18px;
-  font-family: Inter;
+  font-family: Ubuntu;
 }
 pre {
   margin-left: 0;

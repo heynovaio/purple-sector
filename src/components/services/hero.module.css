@@ -1,0 +1,48 @@
+
+.heroBox{
+	display: flex;
+	justify-content: flex-end;
+}
+.textBox{
+	width: 60%;
+	text-align: center;
+	position: relative;
+}
+
+.shapeBox{
+	width:  370px;
+	position:  relative;
+	transform: translateY(-100px);
+	height: auto;	
+}
+.shapeBox img{
+	position:  absolute;
+}
+.shapeBox img:nth-child(1){
+	z-index: 3;
+	left:  10%;
+	top: 33%;
+	max-width: 33%;
+}
+.shapeBox img:nth-child(2){
+	z-index: 2;
+	right: 0;		
+}
+.shapeBox img:nth-child(3){
+	z-index: 1;
+	right: 0;
+	max-width: 85%;
+}
+
+@media screen and (max-width: 1024px){
+	.textBox{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.shapeBox{
+		width: 0;
+	}
+	.hero img{
+		visibility: hidden;
+	}
+}

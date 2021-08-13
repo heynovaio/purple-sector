@@ -8,7 +8,7 @@ import icon2 from "../../images/icon-2.svg"
 import icon3 from "../../images/icon-3.svg"
 import icon4 from "../../images/icon-4.svg"
 
-const Who = ({  }) => (
+const Who = () => (
   <section className={styles.whoSection}>
     <div className={styles.squiggleTop}>
       <img role="presentation" alt="" src={img1}/>

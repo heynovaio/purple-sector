@@ -2,13 +2,12 @@ import * as React from "react"
 import * as styles from "./hero.module.css"
 import { Link } from "gatsby"
 
-
 import img1 from "../../images/circle.svg"
 import img2 from "../../images/blue-shape.svg"
 import img3 from "../../images/grey-shape.svg"
 
-const Hero = ({  }) => (
-  <section>
+const Hero = () => (
+  <section className={styles.hero}>
     <div className="ContentContainer">
       <div className={styles.heroBox}>
         <div className={styles.textBox}>

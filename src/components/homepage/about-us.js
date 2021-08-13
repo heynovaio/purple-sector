@@ -1,12 +1,11 @@
 import * as React from "react"
 import * as styles from "./about-us.module.css"
 import { Link } from "gatsby"
-import {ContentContainer} from "../theme-variables.css"
 
 import img1 from "../../images/side-blob.svg"
 import img2 from "../../images/mechanics.svg"
 
-const AboutUs = ({  }) => (
+const AboutUs = () => (
   <section className={styles.aboutUs}>
     <div className={styles.sideBox}>
       <img role="presentation" alt="" src={img1}/>

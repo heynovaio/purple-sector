@@ -1,4 +1,5 @@
 
+
 html{
 	--theme-blue: #343449;
 	--theme-purple: #A616D4;
@@ -16,24 +17,27 @@ html{
 }
 @media only screen and (min-width: 768px) {
 	.ContentContainer{
-		min-height: 500px;
+		min-height: 400px;
 	}
 }
 @media only screen and (max-width: 768px) {
 	.ContentContainer{
-		padding-top: 115px;
+		padding-top: 60px;
 	}
 }
 .learnBtn{
 	border-radius: 30px;
 	background: var(--theme-blue);
 	color: #fff;
-	padding: 12px 21px 16px;
+	padding: 13px 38px 15px;
 }
 .alt{
   background:  var(--theme-purple);
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 22px;
+  padding: 13px 38px 15px;
+  font-weight: 200;
+  white-space:nowrap;
 }
 .card{
   background: #FFF;
@@ -43,6 +47,8 @@ html{
 }
 .what{
   padding: 22px 65px 20px;
+  max-width: 465px;
+  width: 100%;
 }
 .what img{
   margin-bottom: 5px;
@@ -68,7 +74,7 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   text-rendering: optimizeLegibility;
-  font-size: 84px;
+  font-size: 72px;
   line-height: 86px;
   letter-spacing: -3.8px;
 }
@@ -108,6 +114,9 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.005em;
 }
+p{
+  
+}
 mark {
   background-color: #FDFF6F;
   color: inherit;
@@ -129,4 +138,13 @@ p mark{
   line-height: 0.5;
   padding: 0 0.25% 0.5%;
   margin: 0;
+}
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 60px;
+    line-height: 70px;
+  }
+  h2{
+    font-size: 40px;
+  }
 }

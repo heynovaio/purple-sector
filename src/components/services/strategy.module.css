@@ -1,0 +1,71 @@
+.strategy{
+	background-image: url("../../images/curved-rectangle2.svg");
+	background-size: auto 80%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.topWrapper{
+	max-width: 59%;
+}
+.topWrapper h2{
+	text-align: left;
+}
+.cardCols{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 28px;
+	align-items: center;
+	width: 100%;
+	background-image: url("../../images/bg-squiggle.svg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.card:nth-child(even){
+	margin-left: auto;
+	margin-right: 0;
+	
+}
+.card:nth-child(odd){
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.card{
+	width: 100%;
+	max-width: 686px;
+	background: #FFF;
+	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
+	border-radius: 9px;
+	padding: 45px 38px;
+}
+.card p{
+	margin-bottom: 15px;
+}
+.iconGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 110%;
+}
+.iconCard{
+	display: flex;
+	justify-content: left;
+	margin-top: 30px;
+	padding-right: 10px;
+}
+
+.iconCard img{
+	width: 60px;
+	height: auto;
+	padding-right: 10px;
+}
+.gridText{
+	display: flex;
+	justify-content: top;
+	flex-direction: column;
+}
+.gridText h4, .gridText p{
+	margin: 0;
+}

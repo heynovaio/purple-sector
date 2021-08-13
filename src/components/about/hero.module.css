@@ -1,0 +1,90 @@
+.hero{
+	position: relative;
+	margin-bottom: -65px;
+}
+.heroBox{
+	display: flex;
+	justify-content: flex-end;
+}
+.textBox{
+	width: 100%;
+	max-width: 730px;
+	text-align: center;
+	position: relative;
+	margin:0 0 60px;
+}
+
+.textBox p{
+	padding: 0 5%;
+}
+
+.shapeBox{
+	width:  370px;
+	position:  relative;
+	transform: translateY(-100px);
+	height: auto;	
+}
+.shapeBox img{
+	position:  absolute;
+}
+.shapeBox img:nth-child(1){
+	z-index: 3;
+	left:  10%;
+	top: 33%;
+	max-width: 33%;
+}
+.shapeBox img:nth-child(2){
+	z-index: 2;
+	right: 0;		
+}
+.shapeBox img:nth-child(3){
+	z-index: 1;
+	right: 0;
+	max-width: 85%;
+}
+
+.storyWrapper{
+	max-width: 707px;
+	width: 100%;
+	margin: 0 auto;
+}
+.storyWrapper h2{
+	text-align: left;
+}
+.storyWrapper p{
+	margin: 60px 0;
+}
+.shapeBox2{
+	width:  370px;
+	position:  absolute;
+	height: 695px;
+	left: 0;
+	bottom: -45%;	
+}
+.shapeBox2 img{
+	position:  absolute;
+	top: 0;
+
+}
+.shapeBox2 img:nth-child(1){
+	z-index: 1;
+	top: 33%;
+}
+.shapeBox2 img:nth-child(2){
+	z-index: -1;
+	width: 255px;
+}
+.shapeBox2 img:nth-child(3){
+	z-index: 1;
+	top: 10%;
+	width: 352px;
+	right: 0;
+}
+@media screen and (max-width: 1024px){
+	.shapeBox{
+		width: 0;
+	}
+	.hero img{
+		visibility: hidden;
+	}
+}
