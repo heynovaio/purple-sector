@@ -2,7 +2,7 @@ footer{
 	background: var(--theme-blue);
 	position: relative;
 	overflow: hidden;
-	z-index: -2;
+	z-index: 0;
 	padding: 20px 0 60px;
 }
 .purpleIcon{
@@ -19,6 +19,8 @@ footer{
 	column-gap: 30px;
 	row-gap: 60px;
 	flex-wrap: wrap;
+	z-index: 2;
+	position: relative;
 }
 .navMenu{
 	max-width: 206px;
@@ -26,13 +28,17 @@ footer{
 	display: flex;
 	flex-direction: column;
 	row-gap: 40px;
+	z-index: 3;
+	position: relative;
 }
 
 .navA{
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 18px;
+	line-height: 20px;
+	z-index: 3;
+	position: relative;
 }
 .contactUs{
 	max-width: 266px;

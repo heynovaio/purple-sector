@@ -1,7 +1,17 @@
 
-
 .aboutUs{
 	padding-top: 10%;
+	/*
+	background-image: 
+		url("../../images/road-bend-flipped.png"),
+		url("../../images/road-curve.png");
+	background-repeat: no-repeat;
+	background-position: 
+		right 500px top 125px,
+		right 395px top 266.5px;
+	z-index: 0;
+	*/
+	position: relative;
 }
 .sideBox{
 	position: relative;

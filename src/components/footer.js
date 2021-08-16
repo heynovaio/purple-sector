@@ -8,7 +8,7 @@ import blob from '../images/bottom-blob.png'
 
 const Footer = () => (
   <footer>
-    <img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/>
+    <Link  to="/"><img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/></Link>
     <div className="ContentContainer">
       <div className={styles.navCol}>
         <div className={styles.navMenu}>

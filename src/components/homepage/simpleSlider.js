@@ -16,32 +16,40 @@ export default class SimpleSlider extends Component {
         <h2> Hear from our clients</h2>
         <Slider {...settings}>
           <div className="slickItem">
-            <p>Purple Sector's Responsibility Mapping workshop was a great 
-            way to deliberate and intentionally reflect on the current state 
-            of our team and how we want to evolve. Not only did it help us 
-            structure the conversation but it was also a lean way to document 
-            our roles so we could refer back to and update them as needed.</p>
+            <p>Purple Sector's Responsibility Mapping workshop was a great way 
+            to deliberately reflect on the current state of our team and intentionally 
+            consider how we want to evolve. These are important conversations, but it’s 
+            hard to create space to reflect on team dynamics when the pressure is on 
+            everyday. Not only did Purple SectorCarlos and Meredith help us structure 
+            the conversation, but they provided a lean way to articulate our roles so 
+            we could refer back to them and make updates as needed. The clarity they 
+            provided is already paying off.</p>
             <h4>Justin Godard, Director of Design, Varicent</h4>
           </div>
           <div className="slickItem">
-            <p>As our organization's first product manager, the Alignment Program 
-            not only got me up to speed quickly on the core users and customers 
-            of our organization's core product, but it also helped me understand 
-            the way the team worked together and areas I would be most impactful 
-            in my contributions.</p>
+            <p>As the first product manager on our team, the Alignment Program not only 
+            allowed me to get to know the users and customers of our organization's core 
+            product, it also helped me understand the way the team works together and 
+            uncovered the areas where I can make the biggest contribution. By accelerating 
+            the onboarding process, Purple Sector helped reduce the time, expenses, and 
+            stress needed to get up to speed.</p>
             <h4>Ellen Roberto, Product Manager, Timeless Medical Systems</h4>
           </div>
           <div className="slickItem">
-            <p>Getting a multi-disciplinary team working towards a common goal is 
-            one of my key responsibilities as a leader, and the structure of Purple 
-            Sector's approaches help me share the context my team needs to do drive 
+            <p>One of my key responsibilities as a leader is getting a multi-disciplinary 
+            team to work towards a common goal. Purple Sector's approach helped me structure 
+            conversations about customer needs and gave me the tools to align my team around 
+            the context we share. Meredith and Carlos provided the clarity we need to drive 
             towards positive outcomes.</p>
             <h4>Joe Lindsay, CTO, Timeless Medical Systems</h4>
           </div>
           <div className="slickItem">
-            <p>Purple Sector's approach to mapping out our ideas gave us a way to 
-            have meaningful conversations about how we can make improvements and 
-            plan for the future.</p>
+            <p>Purple Sector's approach gave my team a low-barrier way to map out what we need 
+            to do as an organization. Carlos and Meredith guided us to articulate our ideas without 
+            much preparation on our end, allowing for meaningful conversations about how we can make 
+            improvements and plan for the future.  They got us talking about what matters most. And 
+            because we have the process documented, we can easily share our progress with development 
+            partners and give them context for our next steps.</p>
             <h4>Pj & Dan Silivestru, Founders, Chocolate Soup</h4>
           </div>
         </Slider>
