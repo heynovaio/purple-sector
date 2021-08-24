@@ -3,7 +3,7 @@ import * as styles from "./why.module.css"
 import { Link } from "gatsby"
 
 import blob from "../../images/side-blob2.svg"
-import groupPic from "../../images/july2021.png"
+import groupPic from "../../images/groupPic.jpg"
 
 const Why = () => (
   <section className={styles.whySection}>
