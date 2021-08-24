@@ -3,9 +3,11 @@
 	background-size: auto 80%;
 	background-repeat: no-repeat;
 	background-position: left top;
+	margin-top: -80px;
 }
 .topWrapper{
 	max-width: 59%;
+	padding-bottom: 20px;
 }
 .topWrapper h2{
 	text-align: left;

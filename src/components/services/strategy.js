@@ -9,7 +9,7 @@ import coach from "../../images/coach-icon.svg"
 
 const Strategy = () => (
   <section className={styles.strategy}>
-    <div className="ContentContainer">
+    <div className="ContentContainer strategy">
       <div className={styles.topWrapper}>
         <h2><mark>Strategy</mark> Services Packages</h2>
         <p>Our facilitated workshops and coaching help product teams 
