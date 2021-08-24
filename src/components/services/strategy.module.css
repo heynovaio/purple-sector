@@ -6,8 +6,12 @@
 	margin-top: -80px;
 }
 .topWrapper{
-	max-width: 59%;
 	padding-bottom: 20px;
+}
+@media screen and (min-width: 500px){
+	.topWrapper{
+		max-width: 59%;
+	}
 }
 .topWrapper h2{
 	text-align: left;
@@ -49,11 +53,15 @@
 .card p{
 	margin-bottom: 15px;
 }
-.iconGrid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	width: 110%;
+
+@media screen and (min-width: 500px){
+	.iconGrid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 110%;
+	}
 }
+
 .iconCard{
 	display: flex;
 	justify-content: left;

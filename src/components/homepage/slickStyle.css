@@ -16,6 +16,11 @@
 	line-height: 150%;
 	font-family: inter, sans-serif;
 }
+@media screen and (max-width: 500px){
+	.slick-slide blockquote{
+		font-size: 18px;
+	}
+}
 .slick-slide .h4{
 	letter-spacing: 0.1px;
 	color: #A616D4;

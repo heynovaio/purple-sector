@@ -4,8 +4,20 @@
 @media (max-width: 1114px) {
 	.hero h1 {
 		font-size:  64px;
-		line-height: 1.32em;
+		line-height: 1em;
 	}
+}
+@media (max-width: 800px) {
+	.hero h1 {
+		font-size:  50px;
+		line-height: 1em;
+		letter-spacing: -.05em;
+		margin-bottom: 0px;
+		padding-bottom: 0;
+	}
+}
+.hero {
+	overflow-x:  hidden;
 }
 .hero p {
 	max-width: 500px;
@@ -58,9 +70,15 @@
 	z-index: 2;
 	right: -60px;		
 }
+
 .shapeBox img:nth-child(3){
 	z-index: 1;
 	right: 0;
+}
+@media (max-width: 800px) {
+	.shapeBox img:nth-child(3){
+		display: none;
+	}
 }
 
 @media screen and (max-width: 950px){
