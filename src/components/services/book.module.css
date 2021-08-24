@@ -1,0 +1,35 @@
+
+.wrapper{
+	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
+	border-radius: 15px;
+	background: var(--theme-blue);
+	padding:  55px 10% 65px;
+	color: #fff;
+	margin: 50px 0;
+	text-align: center;
+}
+.wrapper p{
+	padding: 0 0 30px;
+	font-size: 22px;
+	font-weight: 200;
+	margin: 0 auto;
+	max-width: 860px;
+  line-height: 1.5em;
+}
+.wrapper p:nth-child(3){
+	padding-bottom: 50px;
+}
+.wrapper h2{
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 850px){
+	.trackEnd{
+		padding: 55px 0 65px;
+	}
+	.trackEnd p, .trackEnd h2{
+		width: 80%;
+	}
+}

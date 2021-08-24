@@ -1,0 +1,52 @@
+
+
+.approach{
+	background-image: url("../../images/bg-squiggle2.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cardRow{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 80px;
+	vertical-align: center;
+	row-gap: 30px;
+	z-index: 2;
+	position: relative;
+}
+.card{
+	width: 100%;
+	max-width: 368px;
+	background: #DA9DEE;
+	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
+	border-radius: 9px;
+	padding: 54px 24px;
+	text-align: center;
+	height: 310px;
+	margin: auto 0;
+}
+.card:nth-child(2){
+	height: 346px;
+}
+.consultBtn{
+	margin: 60px auto 0;
+	width: fit-content;
+}
+
+.sideBox{
+	position: relative;
+	display: block;
+	width: 40%;
+	float: right;
+	position:  relative;
+	z-index: 1;
+}
+.sideBox  img{
+	position: absolute;
+	z-index: 0;
+	top: -35em;
+	right: 0;
+}

@@ -1,0 +1,143 @@
+@import "./theme-variables.css";
+
+.header{
+  position: relative;
+  z-index: 3;
+  padding: 5px 0 0 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.menuBtn:hover {
+  background-color: #f4f4f4;
+}
+
+.header img{
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  transform: translateY(-5px);
+}
+.menuIcon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 25px 20px 28px;
+  position: relative;
+  user-select: none;
+}
+
+.menuIcon .navicon {
+  background: #333;
+  display: block;
+  height: 3px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 24px;
+}
+
+.menuIcon .navicon:before,
+.menuIcon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.menuIcon .navicon:before {
+  top: 8px;
+}
+
+.menuIcon .navicon:after {
+  top: -8px;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menuBtn:checked ~ .navMenu {
+  max-height: 300px;
+}
+
+.menuBtn:checked ~ .menuIcon .navicon {
+  background: transparent;
+}
+
+.menuBtn:checked ~ .menuIcon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.menuBtn:checked ~ .menuIcon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.menuBtn:checked ~ .menuIcon:not(.steps) .navicon:before,
+.menuBtn:checked ~ .menuIcon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.navMenu{
+  clear: both;
+  max-height: 0;
+  transition: max-height .5s ease-out;
+  margin: 0;
+  padding: 5px 0 0 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+.navMenu li{
+  list-style: none;
+  text-align: center;
+  font-family:  Ubuntu;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.1px;
+  display: block;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+.navA{ 
+  color: var(--theme-blue);
+} 
+.navA:hover {
+  color: var(--theme-purple);
+}
+.navA[aria-current="page"] {
+  border-bottom: 1px solid var(--theme-purple);
+}
+.navB{
+  background: var(--theme-purple);
+  border-radius: 40px;
+  color:  #ffffff;
+  padding: 9px 28px 13px;
+  margin: 0;
+  width: 221px;
+  border: 2px solid var(--theme-purple);
+}
+.navB:hover {
+  background: var(--theme-blue);
+  border: 2px solid var(--theme-purple);
+}
+@media (min-width: 950px) {
+  .header img{
+    max-width: 289px;
+    
+  }
+  .header li {
+    float: left;
+  }
+  .navMenu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .menuIcon {
+    display: none;
+  }
+}

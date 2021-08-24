@@ -1,0 +1,68 @@
+
+.aboutUs{
+	/*
+	background-image: 
+		url("../../images/road-bend-flipped.png"),
+		url("../../images/road-curve.png");
+	background-repeat: no-repeat;
+	background-position: 
+		right 500px top 125px,
+		right 395px top 266.5px;
+	z-index: 0;
+	*/
+	position: relative;
+}
+.sideBox{
+	position: relative;
+	display: block;
+	max-width: 66%;
+}
+.sideBox  img{
+	position: absolute;
+	z-index: -1;
+	top: 15rem;
+}
+.topContent{
+	text-align: center;
+	max-width: 760px;
+	width: 100%;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+.bottomContent{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 15%;
+	flex-wrap: wrap-reverse;
+	gap: 80px;
+}
+.cardStack{
+	max-width: 478px;
+	width: 100%;
+	gap: 21px;
+	display: flex;
+	flex-direction: column;
+}
+.pictureStack{
+	margin: auto 0;
+	align-items: center;
+	max-width: 672px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	flex: 1 400px;
+}
+.pictureStack h2{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.pictureStack img{
+	margin-bottom: 0;
+}
+@media screen and (max-width: 650px){
+	.sideBox img{
+		visibility: hidden;
+	}	
+}
