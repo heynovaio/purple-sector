@@ -1,6 +1,11 @@
 .whatSection{
 	text-align: center;
-	background: #F7F7F7;
+  background-color: #F7F7F7;
+}
+.whatSection > div {
+	background: url("../../images/track-curve-end.svg");
+  background-repeat: no-repeat;
+	background-position: 51.5% 35.5%;
 }
 .whatSection h2 mark{
 	padding: 0 1.8% .9%;
@@ -26,14 +31,17 @@
 	max-width: 1014px;
   margin: 0 auto;
 }
+
 .trackEnd{
 	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
 	border-radius: 15px;
-	background: var(--theme-blue);
 	padding:  55px 8% 65px;
 	color: #fff;
 	margin-top: 50px;
+	background-color: var(--theme-blue);
+	position: relative;
 }
+
 .trackEnd p{
 	padding: 0 0 30px;
 	font-size: 22px;

@@ -16,7 +16,7 @@ const Hero = () => (
           </h1>
           <p>Creating the conditions to capture knowledge, shape plans, and activate people around what matters most.
           </p>
-          <Link className="learnBtn" to="/services/">Our Services</Link>
+          <Link className="learnBtn" ariaLabel="Learn more by booking a free consult" to="https://savvycal.com/purplesector/free-consult" target="_blank">Learn More</Link>
         </div>
         <div className={styles.shapeBox}>
           <img role="presentation" alt="" src={img1}/>

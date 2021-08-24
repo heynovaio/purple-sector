@@ -22,12 +22,32 @@
 	z-index: -1;
 	top: 15rem;
 }
+@media screen and (min-width: 1170px){
+	.aboutUs > div {
+		background: url("../../images/curve-1.svg");
+		background-repeat: no-repeat;
+		background-position: 
+			right top;
+	}
+}
 .topContent{
 	text-align: center;
 	max-width: 760px;
 	width: 100%;
 	padding: 0 40px;
 	margin: 0 auto;
+}
+@media screen and (min-width: 1170px){
+	.topContent:after{ 
+		height: 31px;
+		width: 48%;
+		background: url("../../images/track-horizontal-1.svg");
+		background-repeat: repeat-x;
+		content: '';
+		position: absolute;
+		right: 15%;
+	  top: 397px;
+	}
 }
 .bottomContent{
 	display: flex;
@@ -36,12 +56,37 @@
 	flex-wrap: wrap-reverse;
 	gap: 80px;
 }
+@media screen and (min-width: 1170px){
+	.bottomContent{ 
+		background: url("../../images/curve-2.svg");
+		background-repeat: no-repeat;
+	  background-position: 33% 19px;
+	}
+}
 .cardStack{
 	max-width: 478px;
 	width: 100%;
 	gap: 21px;
 	display: flex;
 	flex-direction: column;
+	position: relative;
+}
+.cardStack > div {
+  position: relative;
+  z-index: 1;
+}
+@media screen and (min-width: 1170px){
+	.cardStack:after{
+		width: 31px;
+	  height: 114%;
+		background: url("../../images/track-vertical-1.svg");
+		background-repeat: repeat-y;
+		content: '';
+		position: absolute;
+	  left: 74%;
+	  top: 108px;
+	  z-index: 0;
+	}
 }
 .pictureStack{
 	margin: auto 0;

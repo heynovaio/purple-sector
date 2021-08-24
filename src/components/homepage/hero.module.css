@@ -1,9 +1,18 @@
 .hero h1 {
 	font-size:  84px;
 }
+@media (max-width: 1114px) {
+	.hero h1 {
+		font-size:  64px;
+		line-height: 1.32em;
+	}
+}
 .hero p {
 	max-width: 500px;
   margin: 0 auto 30px;
+}
+.hero > div {
+	padding-bottom:  83px;
 }
 .heroBox{
 	display: flex;
@@ -38,7 +47,7 @@
 	right:  33%;
 	top: 320px;
 	transition: right 1s linear, top 1s linear, width 1s linear;
-	animation:  1.6s ballDrop ease-in-out;
+	animation:  1s ballDrop ease-in-out;
 	animation-iteration-count: 1;
 }
 @keyframes ballDrop {

@@ -38,11 +38,18 @@ footer .ContentContainer {
   display: inline-block;
   font-weight: 600;
 }
+.learnBtn:hover{
+  background: var(--theme-purple);
+}
 .alt{
-  background:  var(--theme-purple);
+  background: var(--theme-purple);
   margin: 20px 0;
   font-size: 22px;
   white-space:nowrap;
+}
+.alt:hover {
+  background: #fff;
+  color: var(--theme-purple);
 }
 .card{
   background: #FFF;
@@ -81,7 +88,7 @@ h1 {
   font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 72px;
-  line-height: 86px;
+  line-height: 1em;
   letter-spacing: -3.8px;
 }
 h2 {
@@ -121,7 +128,7 @@ h3 {
   letter-spacing: 0.005em;
 }
 p{
-  
+ line-height: 1.5em;
 }
 mark {
   background-color: #FDFF6F;

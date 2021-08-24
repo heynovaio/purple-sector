@@ -1,5 +1,6 @@
 .whySection{
-
+	position: relative;
+	z-index: 3;
 }
 .flexBox{
 	display: flex;
@@ -34,6 +35,23 @@
 	gap: 21px;
 	display: flex;
 	flex-direction: column;
+	z-index: 1;
+}
+@media screen and (min-width: 1170px){
+	.cardStack:after{
+		width: 31px;
+	  height: 111%;
+		background: url("../../images/track-vertical-1.svg");
+		background-repeat: repeat-y;
+		content: '';
+		position: absolute;
+	  right: 330px;
+	  top: 108px;
+	  z-index: 0;
+	}
+}
+.cardStack > div {
+	position: relative;
 	z-index: 1;
 }
 .sideBox{
