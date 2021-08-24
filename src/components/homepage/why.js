@@ -11,7 +11,7 @@ const Why = () => (
       <div className={styles.flexBox}>
         <div className={styles.pictureStack}>
           <h2><mark>Why</mark> Purple Sector</h2>
-          <img role="presentation" alt="" src={groupPic}/>
+          <img role="presentation" alt="" src={groupPic} />
           <Link className="learnBtn" to="/about">Learn more about us</Link>
         </div>
         <div className={styles.cardStack}>
