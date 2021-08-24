@@ -15,7 +15,7 @@ const Book = () => (
         service package that is unique to your organization. Our strategy services 
         are widely applicable, and we can design workshops and programs specifically 
         branded for your business.</p>
-        <Link className="learnBtn alt" to="/contact/">Book a Free Consult</Link>
+        <Link className="learnBtn alt" to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a Free Consult</Link>
       </div>
     </div>
   </section>

@@ -21,7 +21,10 @@
 }
 .pictureStack h2{
 	margin-bottom: 0;
+	width: 100%;
+  text-align: left;
 }
+
 .pictureStack img{
 	margin-bottom: 0;
 }

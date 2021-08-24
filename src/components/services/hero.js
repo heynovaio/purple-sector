@@ -2,8 +2,8 @@ import * as React from "react"
 import * as styles from "./hero.module.css"
 
 import img1 from "../../images/circle.svg"
-import img2 from "../../images/short-blue-shape.svg"
-import img3 from "../../images/curved-rectangle.svg"
+import img2 from "../../images/blue-shape.svg"
+import img3 from "../../images/grey-shape.svg"
 
 
 const Hero = () => (

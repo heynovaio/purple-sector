@@ -15,9 +15,7 @@ const Who = () => (
     </div>
     <div className="ContentContainer who">
       <div className={styles.whoHeader}>
-        <h2>Who we work with</h2>
-        <p>Lorem ipsum dolor sit amet,consectetur 
-        adipiscing elit. Arcu tempor sagittis etiam</p>
+        <h2><mark>Who</mark> we work with</h2>
       </div>
       <div className={styles.whoPanel}>
         <div className={styles.whoCard}>
@@ -27,14 +25,13 @@ const Who = () => (
         </div>
         <div className={styles.whoCard}>
           <img role="presentation" alt="" src={icon2}/>
-          <h3>Health Tech Product Teams</h3>
-          <p>Supporting patients and providers with healthcare-focused 
-          applications</p>
+          <h3>HealthTech Teams</h3>
+          <p>Supporting patients and providers with healthcare-focused applications</p>
         </div>
         <div className={styles.whoCard}>
           <img role="presentation" alt="" src={icon3}/>
-          <h3>Portfolio Companies</h3>
-          <p>Nurturing new businesses and pivoting teams </p>
+          <h3>Social Impact VCs</h3>
+          <p>Nurturing new or pivoting portfolio companies</p>
         </div>
         <div className={styles.whoCard}>
           <img role="presentation" alt="" src={icon4}/>

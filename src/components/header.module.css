@@ -93,7 +93,7 @@
 .navMenu li{
   list-style: none;
   text-align: center;
-  font-family:  Inter;
+  font-family:  Ubuntu;
   font-size: 18px;
   line-height: 1;
   letter-spacing: 0.1px;
@@ -105,14 +105,24 @@
 .navA{ 
   color: var(--theme-blue);
 } 
-
+.navA:hover {
+  color: var(--theme-purple);
+}
+.navA[aria-current="page"] {
+  border-bottom: 1px solid var(--theme-purple);
+}
 .navB{
   background: var(--theme-purple);
   border-radius: 40px;
   color:  #ffffff;
-  padding:  12px 30px 14px;
+  padding: 9px 28px 13px;
   margin: 0;
   width: 221px;
+  border: 2px solid var(--theme-purple);
+}
+.navB:hover {
+  background: var(--theme-blue);
+  border: 2px solid var(--theme-purple);
 }
 @media (min-width: 950px) {
   .header img{

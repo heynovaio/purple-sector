@@ -14,6 +14,8 @@
 	margin-top: 80px;
 	vertical-align: center;
 	row-gap: 30px;
+	z-index: 2;
+	position: relative;
 }
 .card{
 	width: 100%;
@@ -32,4 +34,19 @@
 .consultBtn{
 	margin: 60px auto 0;
 	width: fit-content;
+}
+
+.sideBox{
+	position: relative;
+	display: block;
+	width: 40%;
+	float: right;
+	position:  relative;
+	z-index: 1;
+}
+.sideBox  img{
+	position: absolute;
+	z-index: 0;
+	top: -35em;
+	right: 0;
 }

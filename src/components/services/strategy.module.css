@@ -41,6 +41,9 @@
 	border-radius: 9px;
 	padding: 45px 38px;
 }
+.card h3 {
+	color: #A616D4;
+}
 .card p{
 	margin-bottom: 15px;
 }

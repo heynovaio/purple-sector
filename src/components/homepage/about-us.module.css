@@ -1,6 +1,5 @@
 
 .aboutUs{
-	padding-top: 10%;
 	/*
 	background-image: 
 		url("../../images/road-bend-flipped.png"),
@@ -25,7 +24,7 @@
 }
 .topContent{
 	text-align: center;
-	max-width: 692px;
+	max-width: 760px;
 	width: 100%;
 	padding: 0 40px;
 	margin: 0 auto;

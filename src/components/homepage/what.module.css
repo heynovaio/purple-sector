@@ -1,9 +1,20 @@
-
 .whatSection{
 	text-align: center;
 	background: #F7F7F7;
 }
-
+.whatSection h2 mark{
+	padding: 0 1.8% .9%;
+}
+.what{
+  padding: 22px 65px 20px;
+  max-width: 465px;
+  width: 100%;
+}
+.what img{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  min-height: 55px;
+}
 .cardBox{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -12,9 +23,9 @@
 	padding: 40px 0;
 	justify-items: center;
 	width: 100%;
+	max-width: 1014px;
+  margin: 0 auto;
 }
-
-
 .trackEnd{
 	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
 	border-radius: 15px;
@@ -26,8 +37,10 @@
 .trackEnd p{
 	padding: 0 0 30px;
 	font-size: 22px;
-	
 	margin: 0 auto;
+	max-width: 860px;
+	line-height: 1.5em;
+	font-weight: 300;
 }
 .trackEnd h2{
 	color: #fff;
@@ -35,7 +48,6 @@
 	padding-bottom: 20px;
 	margin: 0 auto;
 }
-
 @media screen and (max-width: 850px){
 	.cardBox{
 		grid-template-columns: 1fr;

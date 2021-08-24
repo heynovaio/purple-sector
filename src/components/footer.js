@@ -2,26 +2,26 @@ import * as React from "react"
 import * as styles from "./footer.module.css"
 import { Link } from "gatsby"
 
-import img1 from '../images/purplesector-logo2.png'
+import img1 from '../images/purple-cutout.png'
 import linkedIn from '../images/linkedIn.svg'
-import blob from '../images/bottom-blob.png'
+import circle from "../images/circle.svg"
 
 const Footer = () => (
   <footer>
-    <Link  to="/"><img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/></Link>
     <div className="ContentContainer">
+      <Link  to="/"><img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/></Link>
       <div className={styles.navCol}>
         <div className={styles.navMenu}>
           <Link className={styles.navA} to="/about">About Us</Link>
           <Link className={styles.navA} to="/services">Services</Link>
-          <Link className={styles.navA} to="/">Blog</Link>
-          <Link className={styles.navA} to="/">Book a Free Consult</Link>
+          <Link className={styles.navA} to="https://thepitwall.purplesector.ca" target="_blank">Blog</Link>
+          <Link className={styles.navA} to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a Free Consult</Link>
         </div>
         <div className={styles.contactUs}>
           <h3>Contact Us</h3>
-          <p>Email: hello@purplesector.com</p>
+          <p>Email: <Link to="mailto:hello@purplesector.com">hello@purplesector.com</Link></p>
           <h3>Follow us</h3>
-          <Link className={styles.social}to="/contact/"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
+          <Link className={styles.social} to="https://www.linkedin.com/company/purple-sector/" target="_blank"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
         </div>
       </div>
       
@@ -29,25 +29,9 @@ const Footer = () => (
     <div className={styles.sideBox}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
-          <h3>Sign up for our Pit Wall Newsletter</h3>
-          <p>We’re always thinking about alignment strategy. Get tips for practicing alignment in your day-to-day work.</p> 
-          <form className={styles.signUp}>
-            <input
-              type="email"
-              required
-              max_length="512"
-              className={styles.registerEmail}
-              name="email"
-              placeholder="Your Email"
-            />
-            <input
-              className={styles.submitBtn}
-              type="submit"
-              value={`Sign Up`}
-            />
-          </form>
+          <iframe className={styles.signUp} title="Purple Sector Newsletter Signup" src="https://thepitwall.purplesector.ca/embed" width="480" height="320" style={{background: '#da9eee'}} frameborder="0" scrolling="no"></iframe>
         </div>
-        <img role="presentation" alt="" src={blob}/>
+        <img role="presentation" alt="" src={circle}/>
       </div>
     </div>
     <p className={styles.copyRight}>Copyright © 2020. LogoIpsum. All rights reserved.</p>

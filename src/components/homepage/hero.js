@@ -14,11 +14,9 @@ const Hero = () => (
           <h1>We align product teams around 
             a <mark>shared</mark> vision
           </h1>
-          <p>Creating the conditions to capture knowledge, 
-            shape plans, and activate people around what 
-            matters most.
+          <p>Creating the conditions to capture knowledge, shape plans, and activate people around what matters most.
           </p>
-          <Link className="learnBtn" to="/contact/">Learn More</Link>
+          <Link className="learnBtn" to="/services/">Our Services</Link>
         </div>
         <div className={styles.shapeBox}>
           <img role="presentation" alt="" src={img1}/>

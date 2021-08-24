@@ -1,10 +1,9 @@
-
-
-
 .sliderWrapper {
   padding: 40px;
 }
-
+.sliderWrapper p {
+  max-width: 860px;
+}
 .topWrapper{
   display: flex;
   justify-content: space-between;

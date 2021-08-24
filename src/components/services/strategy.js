@@ -11,7 +11,7 @@ const Strategy = () => (
   <section className={styles.strategy}>
     <div className="ContentContainer">
       <div className={styles.topWrapper}>
-        <h2>Strategy Services Packages</h2>
+        <h2><mark>Strategy</mark> Services Packages</h2>
         <p>Our facilitated workshops and coaching help product teams 
         create the conditions to declutter the noise,  identify areas 
         of misalignment, and bring actionable priorities into focus.</p>
@@ -37,7 +37,7 @@ const Strategy = () => (
               <img role="presentation" alt="" src={pitStop}/>
               <div className={styles.gridText}>
                 <h4>Format:</h4>
-                <p>Format: 12 x 2-hour sessions</p>
+                <p>12 x 2-hour sessions</p>
               </div>
             </div>
             <div className={styles.iconCard}>

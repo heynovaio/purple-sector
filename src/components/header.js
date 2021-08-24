@@ -13,8 +13,8 @@ const Header = ({ siteTitle }) => (
     <ul className={styles.navMenu} id="navMenu">
       <li><Link className={styles.navA} to="/about">About Us</Link></li>
       <li><Link className={styles.navA} to="/services">Services</Link></li>
-      <li><Link className={styles.navA} to="/">Newsletter</Link></li>
-      <li><Link className={styles.navB} to="/contact/">Book a Free Consult</Link></li>
+      <li><Link className={styles.navA} to="https://thepitwall.purplesector.ca/" target="_blank">Newsletter</Link></li>
+      <li><Link className={styles.navB} to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a Free Consult</Link></li>
     </ul>
   </header>
 )

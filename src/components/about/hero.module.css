@@ -11,36 +11,39 @@
 	max-width: 730px;
 	text-align: center;
 	position: relative;
-	margin:0 0 60px;
+	margin:0 auto 90px;
 }
 
 .textBox p{
 	padding: 0 5%;
+	line-height: 1.5em;
 }
 
 .shapeBox{
 	width:  370px;
-	position:  relative;
-	transform: translateY(-100px);
 	height: auto;	
+  position: absolute;
+  -webkit-transform: translateY(-3.5rem) scale(.85) translateX(5rem);
+  transform: translateY(-3.5rem) scale(.85) translateX(5rem);
 }
 .shapeBox img{
 	position:  absolute;
 }
+
 .shapeBox img:nth-child(1){
-	z-index: 3;
-	left:  10%;
-	top: 33%;
-	max-width: 33%;
+	z-index: 2;
+  right: 23%;
+  top: 134px;
 }
 .shapeBox img:nth-child(2){
 	z-index: 2;
-	right: 0;		
+	right: -60px;		
 }
 .shapeBox img:nth-child(3){
 	z-index: 1;
-	right: 0;
-	max-width: 85%;
+  right: -42px;
+  top: -74px;
+	transform: scale(.75);
 }
 
 .storyWrapper{
@@ -48,11 +51,16 @@
 	width: 100%;
 	margin: 0 auto;
 }
+.storyWrapper span,
+.storyWrapper mark{
+	color: #A616D4;
+}
 .storyWrapper h2{
 	text-align: left;
+	line-height: 1.2em;
 }
 .storyWrapper p{
-	margin: 60px 0;
+	margin: 0px 0 45px;
 }
 .shapeBox2{
 	width:  370px;

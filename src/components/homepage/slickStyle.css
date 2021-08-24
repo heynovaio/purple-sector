@@ -7,22 +7,24 @@
 .slick-current{
 	position: relative;
 }
-.slick-slide p{
-	max-width: 718px;
+.slick-slide blockquote{
+	max-width: 860px;
 	width: 100%;
 	margin: 0 auto;
 	font-weight: 300;
-	font-size: 26px;
-	line-height: 150%
+	font-size: 22px;
+	line-height: 150%;
+	font-family: inter, sans-serif;
 }
-.slick-slide h4{
+.slick-slide .h4{
 	letter-spacing: 0.1px;
 	color: #A616D4;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 22px;
 	font-family: Inter;
-	margin-top: 24px;
+	margin: 24px auto 0;
+	text-align: center;
 }
 .slick-current::before{
 	content: '\201C';
@@ -30,7 +32,7 @@
 	font-size: 160px;
 	position: absolute;
 	top:40px;
-	left: 15%;
+	left: 8%;
 	color: var(--theme-purple);
 }
 .slick-slide div{
