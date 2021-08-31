@@ -33,7 +33,7 @@ const Hero = () => (
         car, team, strategy. It’s a measure of excellence that reflects a 
         whole team with a shared vision of success. That kind of alignment 
         is what we help our clients achieve.</p>
-        <div className={styles.alignBtn}>
+        <div>
           <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Align your team with us</Link>
         </div>
       </div>

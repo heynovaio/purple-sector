@@ -8,8 +8,8 @@ import img1 from '../images/purplesector-logo.png'
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <Link to="/"><img role="presentation" alt="Purple Sector Logo" src={img1}/></Link>
-    <input className={styles.menuBtn} type="checkbox" id="menuBtn"/>
-    <label className={styles.menuIcon} for="menuBtn"><span className={styles.navicon}></span></label>
+    <input className={styles.menuBtn} type="checkbox" id="menu"/>
+    <label className={styles.menuIcon} htmlFor="menu"><span className={styles.navicon}></span></label>
     <ul className={styles.navMenu} id="navMenu">
       <li><Link className={styles.navA} to="/about">About Us</Link></li>
       <li><Link className={styles.navA} to="/services">Services</Link></li>

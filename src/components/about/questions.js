@@ -86,14 +86,14 @@ const Questions = () => (
         <div className={styles.row}>
           <h3>What we're reading</h3>
           <div className={styles.cardOuter}>
-            <Link target="_blank" to="https://www.pushkin.fm/show/revisionist-history/"><div className={styles.card}>
+            <Link target="_blank" to="https://www.foodnetwork.ca/shows/diners-drive-ins-and-dives/"><div className={styles.card}>
               <img role="presentation" alt="" src={DDD}/>
               <h4>Diners, Drive-Ins, and Dives — Food TV</h4>
               <p>Get a copy</p>
             </div></Link>
           </div>
           <div className={styles.cardOuter}>
-            <Link target="_blank" to="https://www.foodnetwork.com/shows/diners-drive-ins-and-dives"><div className={styles.card}>
+            <Link target="_blank" to="https://www.netflix.com/title/80204890"><div className={styles.card}>
               <img role="presentation" alt="" src={D2S}/>
               <h4>Drive to Survive — Netflix</h4>
               <p>Get a copy</p>

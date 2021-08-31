@@ -17,6 +17,7 @@
 .textBox p{
 	padding: 0 5%;
 	line-height: 1.5em;
+	background: white;
 }
 
 .shapeBox{
@@ -50,6 +51,8 @@
 	max-width: 707px;
 	width: 100%;
 	margin: 0 auto;
+	z-index: 2;
+	position: relative;
 }
 .storyWrapper span,
 .storyWrapper mark{

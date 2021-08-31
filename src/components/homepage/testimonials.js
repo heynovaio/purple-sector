@@ -11,9 +11,9 @@ const Testimonials = () => (
     <div className="ContentContainer">
       <div className={styles.topWrapper}>
         <h3>Who we've worked with</h3>
-        <img role="presentation" alt="" src={choco}/>
-        <img role="presentation" alt="" src={comm}/>
-        <img role="presentation" alt="" src={timeless}/>
+        <div><img role="presentation" alt="" src={choco}/></div>
+        <div><img role="presentation" alt="" src={comm}/></div>
+        <div><img role="presentation" alt="" src={timeless}/></div>
       </div>
       <div className={styles.sliderWrapper}>
         <SlickSlider/>

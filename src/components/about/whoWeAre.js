@@ -2,7 +2,6 @@ import * as React from "react"
 import * as styles from "./whoWeAre.module.css"
 import { Link } from "gatsby"
 
-import mechanics from "../../images/mechanics.svg"
 import pin from "../../images/locationPin.svg"
 import medal from "../../images/medal.svg"
 import magnify from "../../images/magnifyGlass.svg"

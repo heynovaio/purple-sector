@@ -5,7 +5,7 @@
 	margin-bottom: 100px;
 	background: #F7F7F7;
 	position: relative;
-  z-index: 2;
+  	z-index: 1;
 }
 .squiggleTop,.squiggleBottom{
 	position: relative;
@@ -18,7 +18,7 @@
 	margin: 0;
 }
 .squiggleTop img{
-	bottom: 0;
+	bottom: -5px;
 }	
 .whoHeader{
 	width: 100%;
