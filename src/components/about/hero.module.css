@@ -18,6 +18,7 @@
 	padding: 0 5%;
 	line-height: 1.5em;
 	background: white;
+	font-size: 22px;
 }
 
 .shapeBox{
@@ -64,6 +65,7 @@
 }
 .storyWrapper p{
 	margin: 0px 0 45px;
+	background: white;
 }
 .shapeBox2{
 	width:  370px;

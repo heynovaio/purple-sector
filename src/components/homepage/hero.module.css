@@ -22,6 +22,7 @@
 .hero p {
 	max-width: 500px;
   margin: 0 auto 30px;
+  font-size: 22px;
 }
 .hero > div {
 	padding-bottom:  83px;
