@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Purple Sector Strategy`,
+    titleTemplate: "%s",
+    description: `Creating the conditions to capture knowledge, shape plans, and activate people around what matters most to your business through facilitated sessions.`,
+    url: `https://purplesector.ca/`,
+    image: "/images/meta-image.png", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@purplesector_ca",
   },
   plugins: [
    {
