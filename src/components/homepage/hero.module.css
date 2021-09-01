@@ -21,8 +21,7 @@
 }
 .hero p {
 	max-width: 500px;
-  margin: 0 auto 30px;
-  font-size: 22px;
+  margin: 0 0 30px;
 }
 .hero > div {
 	padding-bottom:  83px;
@@ -34,7 +33,7 @@
 }
 .textBox{
 	width: 60%;
-	text-align: center;
+	text-align: left;
 	position: relative;
 	z-index: 2;
 	padding-top: 10%;
