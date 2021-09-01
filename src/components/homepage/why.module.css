@@ -26,6 +26,10 @@
   text-align: left;
 }
 
+.pictureStack div{
+	border-radius: 20px;
+	overflow: hidden;
+}
 .pictureStack img{
 	margin-bottom: 0;
 }

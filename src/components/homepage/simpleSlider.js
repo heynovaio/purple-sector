@@ -33,7 +33,7 @@ export default class SimpleSlider extends Component {
             uncovered the areas where I can make the biggest contribution. By accelerating 
             the onboarding process, Purple Sector helped reduce the time, expenses, and 
             stress needed to get up to speed.</blockquote>
-            <p className="h4">Ellen Roberto, Product Manager, Timeless Medical Systems</p>
+            <p className="h4">Ellen Roberto, Product Manager in Healthcare Software</p>
           </div>
           <div className="slickItem">
             <blockquote>One of my key responsibilities as a leader is getting a multi-disciplinary 

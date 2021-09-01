@@ -3,7 +3,7 @@ import * as styles from "./questions.module.css"
 import { Link } from "gatsby"
 
 import firstAid from "../../images/first-aid-kit.png"
-import insideIntercom from "../../images/inside-intercom.png"
+import invisible from "../../images/99invisible.png"
 import NBT from "../../images/nothing-but-thieves.png"
 import revisionist from "../../images/revisionist-history.png"
 
@@ -31,9 +31,9 @@ const Questions = () => (
             </div></Link>
           </div>
           <div className={styles.cardOuter}>
-            <Link target="_blank" to="https://www.intercom.com/blog/podcasts/"><div className={styles.card}>
-              <img role="presentation" alt="" src={insideIntercom}/>
-              <h4>Inside Intercom — Intercom (Podcast)</h4>
+            <Link target="_blank" to="https://99percentinvisible.org"><div className={styles.card}>
+              <img role="presentation" alt="" src={invisible}/>
+              <h4>99% Invisible — Roman Mars (Podcast)</h4>
               <p>Get a copy</p>
             </div></Link>
           </div>

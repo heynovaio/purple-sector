@@ -108,10 +108,17 @@
 .navA{ 
   color: var(--theme-blue);
 } 
-.navA:hover {
-  color: var(--theme-purple);
+.navA[aria-current="page"]{
+  background: url("../images/highlight.svg");
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: inherit;
+  display: inline-block;
+  padding: 0 10px 0 5px;
+  margin:0 -10px 0 -5px;
 }
-.navA[aria-current="page"] {
+.navA:hover {
   border-bottom: 1px solid var(--theme-purple);
   color: var(--theme-purple);
 }

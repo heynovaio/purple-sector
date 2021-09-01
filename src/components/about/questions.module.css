@@ -84,7 +84,7 @@
 	transition: opacity .2s linear .2s;
 }
 .card:hover img{
-	opacity: 0.18;
+	opacity: 0.05;
 }
 
 .card:hover h4,.card:hover p{

@@ -13,7 +13,7 @@ const AboutUs = () => (
     <div className="ContentContainer">
       <div className={styles.topContent}>
         <h2>Looking to <mark>shift</mark> gears?</h2>
-        <p>We love working with companies trying to do things differently. If you need to energize your team around good habits, Purple Sector can help find alignment with your business goals and get you grounded in the needs of your customer. We provide premium programs specialized for remote and hybrid teams, offering facilitated workshops, coaching, and strategic support so that you can build better teams and better products.</p>
+        <p>We love working with companies who are trying to do things differently. If you need to energize your team around good habits, Purple Sector can help find alignment with your business goals and get you grounded in the needs of your customer. We provide premium programs specialized for remote and hybrid teams, offering facilitated workshops, coaching, and strategic support so that you can build better teams and better products.</p>
       </div>
       
       <div className={styles.bottomContent}>

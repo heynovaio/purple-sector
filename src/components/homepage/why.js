@@ -11,13 +11,13 @@ const Why = () => (
       <div className={styles.flexBox}>
         <div className={styles.pictureStack}>
           <h2><mark>Why</mark> Purple Sector</h2>
-          <img role="presentation" alt="" src={groupPic} />
+          <div><img role="presentation" alt="" src={groupPic} /></div>
           <Link className="learnBtn" to="/about">Learn more about us</Link>
         </div>
         <div className={styles.cardStack}>
           <div className="card right">
             <h3>Passionate about meaningful work</h3>
-            <p>We know the value of aligning people around meaningful work for your business and customers, equipping leaders with the confidence to create conditions that bring out the best of everyone. </p>
+            <p>We know the value to your business and your customers when people are aligned around meaningful work. We equip leaders with the confidence to create conditions that bring out the best of everyone. </p>
           </div>
           <div className="card right">
             <h3>Experience with tech teams</h3>

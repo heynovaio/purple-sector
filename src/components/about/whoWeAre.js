@@ -55,7 +55,7 @@ const WhoWeAre = () => (
       <div className="ContentContainer">
         <div className={styles.row}>
             <div className={styles.copyWrap}>
-              <img role="presentation" alt="" src={Meredith}/>
+              <div><img role="presentation" alt="" src={Meredith}/></div>
             </div>
             <div className={styles.copyWrap}>
               <h2>Meredith Perez</h2>
@@ -82,7 +82,7 @@ const WhoWeAre = () => (
               race and spending time with Meredith and their daughter Arya.</p>
             </div>
             <div className={styles.copyWrap}>
-              <img role="presentation" alt="" src={Carlos}/>
+              <div><img role="presentation" alt="" src={Carlos}/></div>
             </div>
           </div>
           <div className={styles.btnWrap}>

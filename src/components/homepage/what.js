@@ -15,22 +15,22 @@ const What = () => (
         <div className="card what">
           <img role="presentation" alt="" src={icon1}/>
           <h3>Shared purpose</h3>
-          <p>We help create a shared understanding that encompasses the entire organization</p>
+          <p>We help create a shared understanding that encompasses the entire organization.</p>
         </div>
         <div className="card what">
           <img role="presentation" alt="" src={icon2}/>
           <h3>Strategic support</h3>
-          <p>We show  you methods to organize your ideas, knowledge, and workflow</p>
+          <p>We show  you methods to organize your ideas, knowledge, and workflow.</p>
         </div>
         <div className="card what">
           <img role="presentation" alt="" src={icon3}/>
           <h3>Energized teams</h3>
-          <p>Activate the team and the talents you already have on hand</p>
+          <p>Activate the team and the talents you already have on hand.</p>
         </div>
         <div className="card what">
           <img role="presentation" alt="" src={icon4}/>
           <h3>Actionable tools</h3>
-          <p>Walk away with tangible plans and move forward to effective habits</p>
+          <p>Walk away with tangible plans and move forward to effective habits.</p>
         </div>
       </div>
       <div className={styles.trackEnd}>

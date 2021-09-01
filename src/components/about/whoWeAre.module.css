@@ -24,6 +24,10 @@
 	max-width: 560px;
 	width: 100%;
 }
+.copyWrap div{
+	border-radius: 15px;
+	overflow: hidden;
+}
 .copyWrap img{
 	margin-bottom: 0;
 }
@@ -48,6 +52,7 @@
 	background: #FFFFFF;
 	box-shadow: 16px 16px 24px rgba(0, 0, 0, 0.12);
 	border-radius: 9px;
+	overflow: hidden;
 	max-width: 274px;
 	width: 100%;
 	display: flex;
