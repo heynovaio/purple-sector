@@ -8,7 +8,7 @@
 	background-image: url("../../images/bg-grey-blob.svg");
 	background-repeat: no-repeat;
 	position: absolute;
-	top: -198px;
+	bottom: 99%;
 	width: 100%;
 	height: 204px;
 }
