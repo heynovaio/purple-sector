@@ -7,10 +7,11 @@
 	content: "";
 	background-image: url("../../images/bg-grey-blob.svg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
-	bottom: 99%;
+	bottom: 100%;
 	width: 100%;
-	height: 204px;
+  height: 253px;
 }
 .row{
 	display: flex;
@@ -91,6 +92,9 @@
 }
 
 @media screen and (max-width: 600px) {
+	.whoWeAre:before{
+		height: 100px;
+	}
 	.cardGrid{
 		display: flex;
 		flex-direction: column;
