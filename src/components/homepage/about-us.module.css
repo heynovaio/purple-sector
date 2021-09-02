@@ -64,8 +64,8 @@
 	.bottomContent{ 
 		background: url("../../images/curve-2.svg");
 		background-repeat: no-repeat;
-	  background-position: 33% 19px;
-	  background-size: 138px;
+    background-position: 33% 17px;
+    background-size: 133px;
 	}
 }
 .cardStack{

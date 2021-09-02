@@ -16,9 +16,6 @@
 		padding-bottom: 0;
 	}
 }
-.hero {
-	
-}
 .hero p {
 	max-width: 500px;
   margin: 0 0 30px;
@@ -40,14 +37,14 @@
 }
 
 .shapeBox{
-	max-width:  458px;
-	width: 100%;
-	position:  absolute;
-	max-height: 698px;
-	height: 100%;
-	right: 60px;
-	top: 120px;
+	right: 0;
+	top: 0;
+	overflow: hidden;
 	z-index: 1;	
+  max-width: 524px;
+  width: 100%;
+  position: absolute;
+  height: 834px;
 }
 
 .shapeBox img{
@@ -56,8 +53,8 @@
 }
 .shapeBox img:nth-child(1){
 	z-index: 2;
-	right:  33%;
-	top: 220px;
+	right: 44%;
+	top: 340px;
 	transition: right 1s linear, top 1s linear, width 1s linear;
 	animation:  1s ballDrop ease-in-out;
 	animation-iteration-count: 1;
@@ -68,12 +65,14 @@
 }
 .shapeBox img:nth-child(2){
 	z-index: 2;
-	right: -60px;		
+	right: 0px;	
+	top: 120px;	
 }
 
 .shapeBox img:nth-child(3){
 	z-index: 1;
-	right: 0;
+	right: 60px;
+	top: 120px;
 }
 @media (max-width: 800px) {
 	.shapeBox img:nth-child(3){
@@ -91,10 +90,13 @@
 		padding: 17% 0 10% 0;
 	}
 	.shapeBox img:nth-child(1){
-		right: 0;
-		top: 80%;
-		width: 25%;
+		display: none;
 	}
+	.shapeBox img:nth-child(2){
+    top: 120px;
+    width: 75%;
+  }
+
 	/*.shapeBox{
 		width: 0;
 	}

@@ -25,8 +25,8 @@
 	width:  370px;
 	height: auto;	
   position: absolute;
-  -webkit-transform: translateY(-3.5rem) scale(.85) translateX(5rem);
-  transform: translateY(-3.5rem) scale(.85) translateX(5rem);
+  right: 60px;
+  top: 20px;
 }
 .shapeBox img{
 	position:  absolute;

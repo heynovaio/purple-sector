@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Purple Sector Strategy`,
-    titleTemplate: "%s",
+    titleTemplate: `%s`,
     description: `Creating the conditions to capture knowledge, shape plans, and activate people around what matters most to your business through facilitated sessions.`,
-    url: `https://purplesector.ca/`,
-    image: "/images/meta-image.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@purplesector_ca",
+    url: `https://purplesector.ca`,
+    image: `/static/meta-image.png`, // Path to your image you placed in the 'static' folder
+    twitterUsername: `@purplesector_ca`,
   },
   plugins: [
    {

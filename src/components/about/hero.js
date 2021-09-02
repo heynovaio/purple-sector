@@ -18,11 +18,6 @@ const Hero = () => (
           <h1>About Our Strategy</h1>
           <p>We bring together the experience and innovation you need to support your team’s journey to alignment.</p>
         </div>
-        <div className={styles.shapeBox}>
-          <img role="presentation" alt="" src={img1}/>
-          <img role="presentation" alt="" src={img2}/>
-          <img role="presentation" alt="" src={img3}/> 
-        </div>
       </div>
       <div className={styles.storyWrapper}>
         <h2>What's the story behind <mark>Purple Sector</mark>?</h2>
@@ -42,6 +37,11 @@ const Hero = () => (
       <img role="presentation" alt="" src={img4}/>
       <img role="presentation" alt="" src={img5}/>
       <img role="presentation" alt="" src={img6}/> 
+    </div>
+    <div className={styles.shapeBox}>
+      <img role="presentation" alt="" src={img1}/>
+      <img role="presentation" alt="" src={img2}/>
+      <img role="presentation" alt="" src={img3}/> 
     </div>
   </section>
 )

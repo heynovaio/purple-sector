@@ -13,7 +13,6 @@ const IndexPage = ({ location }) => (
     <SEO 
       title="Aligning teams around a shared vision | Purple Sector Strategy" 
       description="Creating the conditions to capture knowledge, shape plans, and activate people around what matters most to your business through facilitated sessions." 
-
     />
     <Hero/>
     <AboutUs/>

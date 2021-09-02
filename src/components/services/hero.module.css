@@ -1,4 +1,6 @@
-
+.hero{
+	position: relative;
+}
 .heroBox{
 	display: flex;
 	justify-content: flex-end;
@@ -16,8 +18,8 @@
 .shapeBox{
 	width:  370px;
   position: absolute;
-  -webkit-transform: translateY(-3.5rem) scale(.85) translateX(5rem);
-  transform: translateY(-3.5rem) scale(.85) translateX(5rem);
+  right: 60px;
+  top: 20px;
 	height: auto;	
 }
 .shapeBox img{
