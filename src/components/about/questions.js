@@ -84,7 +84,7 @@ const Questions = () => (
           </div>
         </div>
         <div className={styles.row}>
-          <h3>What we're reading</h3>
+          <h3>What we're watching</h3>
           <div className={styles.cardOuter}>
             <Link target="_blank" to="https://www.foodnetwork.ca/shows/diners-drive-ins-and-dives/"><div className={styles.card}>
               <img role="presentation" alt="" src={DDD}/>
