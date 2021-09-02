@@ -5,7 +5,7 @@
 .whatSection > div {
 	background: url("../../images/track-curve-end.svg");
   background-repeat: no-repeat;
-	background-position: 51.5% 35.5%;
+  background-position: 51.5% 28.5%;
 }
 
 .what{
@@ -23,7 +23,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 84px;
 	row-gap: 22px;
-	padding: 40px 0;
+  padding: 40px 0 156px;
 	justify-items: center;
 	width: 100%;
 	max-width: 1014px;
@@ -55,6 +55,9 @@
 	margin: 0 auto;
 }
 @media screen and (max-width: 850px){
+	.whatSection > div {
+		background: none;
+	}
 	.cardBox{
 		grid-template-columns: 1fr;
 	}
