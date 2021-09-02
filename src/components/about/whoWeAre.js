@@ -7,8 +7,8 @@ import medal from "../../images/medal.svg"
 import magnify from "../../images/magnifyGlass.svg"
 import gear from "../../images/gearHand.svg"
 
-import Meredith from "../../images/meredith.png"
-import Carlos from "../../images/carlos.png"
+import Meredith from "../../images/meredith.jpg"
+import Carlos from "../../images/carlos.jpg"
 
 const WhoWeAre = () => (
   <section className={styles.whoWeAre}>

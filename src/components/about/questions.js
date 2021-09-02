@@ -2,20 +2,20 @@ import * as React from "react"
 import * as styles from "./questions.module.css"
 import { Link } from "gatsby"
 
-import firstAid from "../../images/first-aid-kit.png"
-import invisible from "../../images/99invisible.png"
-import NBT from "../../images/nothing-but-thieves.png"
-import revisionist from "../../images/revisionist-history.png"
+import firstAid from "../../images/first-aid-kit.jpg"
+import invisible from "../../images/99invisible.jpg"
+import NBT from "../../images/nothing-but-thieves.jpg"
+import revisionist from "../../images/revisionist-history.jpg"
 
-import aliveAtWork from "../../images/alive-at-work.png"
-import escaping from "../../images/escaping-the-build-trap.png"
-import inspired from "../../images/inspired.png"
-import technically from "../../images/technically-wrong.png"
+import aliveAtWork from "../../images/alive-at-work.jpg"
+import escaping from "../../images/escaping-the-build-trap.jpg"
+import inspired from "../../images/inspired.jpg"
+import technically from "../../images/technically-wrong.jpg"
 
-import DDD from "../../images/diners-driveins-dives.png"
-import D2S from "../../images/drive-to-survive.png"
-import SchittsCreek from "../../images/schitts-creek.png"
-import TedLasso from "../../images/ted-lasso.png"
+import DDD from "../../images/diners-driveins-dives.jpg"
+import D2S from "../../images/drive-to-survive.jpg"
+import SchittsCreek from "../../images/schitts-creek.jpg"
+import TedLasso from "../../images/ted-lasso.jpg"
 
 const Questions = () => (
   <section className={styles.questions}>
