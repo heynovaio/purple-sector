@@ -15,7 +15,7 @@ const Hero = () => (
     <div className="ContentContainer">
       <div className={styles.heroBox}>
         <div className={styles.textBox}>
-          <h1>About Our Strategy</h1>
+          <h1>What drives us</h1>
           <p>We bring together the experience and innovation you need to support your team’s journey to alignment.</p>
         </div>
       </div>
@@ -29,7 +29,7 @@ const Hero = () => (
         whole team with a shared vision of success. That kind of alignment 
         is what we help our clients achieve.</p>
         <div>
-          <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Align your team with us</Link>
+          <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
         </div>
       </div>
     </div>

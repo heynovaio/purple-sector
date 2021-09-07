@@ -122,9 +122,12 @@ footer iframe {
 	z-index: -1;
 }
 .content{
-	padding-right: 65px;
 	line-height: 24px;
 	position: relative;
+	width: 480px;
+}
+.content iframe{
+	width: 100%;
 }
 .content h3::before{
 	background-image: url("../images/circle.svg");
@@ -195,9 +198,13 @@ footer iframe {
 		position: relative;
 		left: 20px;
 		padding-bottom: 40px;
+		max-width: 100%;
 	}
 	.submitBtn{
 		background: var(--theme-purple);
+	}
+	.content{
+		width: 100vw;
 	}
 }
 @media screen and (max-width: 580px){
@@ -207,15 +214,6 @@ footer iframe {
   }
 	.sideBox{
 		left: 0;
-	}
-	.content{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		row-gap: 20px;
-		padding: 0 10px;
 	}
 	.flexIcons{
 		justify-content: center;

@@ -1,3 +1,6 @@
+.hero{
+	position: relative;
+}
 .hero h1 {
 	font-size:  84px;
 }
@@ -6,6 +9,7 @@
 		font-size:  64px;
 		line-height: 1em;
 	}
+
 }
 @media (max-width: 800px) {
 	.hero h1 {
@@ -53,8 +57,8 @@
 }
 .shapeBox img:nth-child(1){
 	z-index: 2;
-	right: 44%;
-	top: 340px;
+	right: 40%;
+	top: 240px;
 	transition: right 1s linear, top 1s linear, width 1s linear;
 	animation:  1s ballDrop ease-in-out;
 	animation-iteration-count: 1;
@@ -66,13 +70,18 @@
 .shapeBox img:nth-child(2){
 	z-index: 2;
 	right: 0px;	
-	top: 120px;	
+	top: 0;	
 }
 
 .shapeBox img:nth-child(3){
 	z-index: 1;
 	right: 60px;
-	top: 120px;
+	top: 60px;
+}
+@media (max-width: 1114px) {
+	.shapeBox img:nth-child(3){
+		top: 10px;
+	}
 }
 @media (max-width: 800px) {
 	.shapeBox img:nth-child(3){
@@ -82,9 +91,9 @@
 
 @media screen and (max-width: 950px){
 	.textBox{
-		width: 100%;
-		margin: 0 auto;
-		
+		width: 80%;
+		margin: 0 auto 0 0;
+		padding-right: 10px;
 	}
 	.textBox h1{
 		padding: 17% 0 10% 0;
@@ -93,14 +102,6 @@
 		display: none;
 	}
 	.shapeBox img:nth-child(2){
-    top: 120px;
     width: 75%;
   }
-
-	/*.shapeBox{
-		width: 0;
-	}
-	.hero img{
-		visibility: hidden;
-	}*/
 }

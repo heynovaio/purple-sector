@@ -11,7 +11,7 @@ const Strategy = () => (
   <section className={styles.strategy}>
     <div className="ContentContainer strategy">
       <div className={styles.topWrapper}>
-        <h2><mark>Strategy</mark> Services Packages</h2>
+        <h2><mark>Strategy</mark> services packages</h2>
         <p>Our facilitated workshops and coaching help product teams 
         create the conditions to declutter the noise,  identify areas 
         of misalignment, and bring actionable priorities into focus.</p>

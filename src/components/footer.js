@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import img1 from '../images/purple-sector-avatar-rev.svg'
 import linkedIn from '../images/linkedIn.svg'
 import twitter from '../images/twitter-logo.png'
-import circle from "../images/circle.svg"
 
 const Footer = () => (
   <footer>
@@ -13,13 +12,13 @@ const Footer = () => (
       <div className={styles.navFlex}>
         <div className={styles.navCol}>
           <div className={styles.navMenu}>
-            <Link className={styles.navA} to="/about">About Us</Link>
+            <Link className={styles.navA} to="/about">About us</Link>
             <Link className={styles.navA} to="/services">Services</Link>
-            <Link className={styles.navA} to="https://thepitwall.purplesector.ca" target="_blank" >Blog</Link>
-            <Link className={styles.navA} to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a Free Consult</Link>
+            <Link className={styles.navA} to="https://thepitwall.purplesector.ca" target="_blank" >Newsletter</Link>
+            <Link className={styles.navA} to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
           </div>
           <div className={styles.contactUs}>
-            <h3>Contact Us</h3>
+            <h3>Contact us</h3>
             <p>Email: <Link to="mailto:hello@purplesector.ca">hello@purplesector.ca</Link></p>
             <h3>Follow us</h3>
             <div className={styles.flexIcons}>
@@ -35,9 +34,8 @@ const Footer = () => (
     <div className={styles.sideBox}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
-          <iframe className={styles.signUp} title="Purple Sector Newsletter Signup" src="https://thepitwall.purplesector.ca/embed" width="480" height="320" style={{background: '#da9eee'}} frameBorder="0" scrolling="no"></iframe>
+          <iframe className={styles.signUp} title="Purple Sector Newsletter Signup" src="https://thepitwall.purplesector.ca/embed"  height="320" style={{background: '#da9eee'}} frameBorder="0" scrolling="no"></iframe>
         </div>
-        <img role="presentation" alt="" src={circle}/>
       </div>
     </div>
 

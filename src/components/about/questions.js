@@ -22,7 +22,7 @@ const Questions = () => (
     <div className="ContentContainer">
       <div className={styles.rowWrapper}>
         <div className={styles.row}>
-          <h3>What we're listening to</h3>
+          <h3>Listen to it</h3>
           <div className={styles.cardOuter}>
             <Link target="_blank" to="https://music.apple.com/ca/album/ruins/1298785869"><div className={styles.card}>
               <img role="presentation" alt="" src={firstAid}/>
@@ -53,7 +53,7 @@ const Questions = () => (
           </div>
         </div>
         <div className={styles.row}>
-          <h3>What we're reading</h3>
+          <h3>Read it</h3>
           <div className={styles.cardOuter}>
             <Link target="_blank" to="https://www.chapters.indigo.ca/en-ca/books/alive-at-work-the-neuroscience/9781633697669-item.html?ikwid=alive+at+work&ikwsec=Home&ikwidx=0#algoliaQueryId=ca832de5303c004dd9ced479bbe397d2"><div className={styles.card}>
               <img role="presentation" alt="" src={aliveAtWork}/>
@@ -84,7 +84,7 @@ const Questions = () => (
           </div>
         </div>
         <div className={styles.row}>
-          <h3>What we're watching</h3>
+          <h3>Watch it</h3>
           <div className={styles.cardOuter}>
             <Link target="_blank" to="https://www.foodnetwork.ca/shows/diners-drive-ins-and-dives/"><div className={styles.card}>
               <img role="presentation" alt="" src={DDD}/>

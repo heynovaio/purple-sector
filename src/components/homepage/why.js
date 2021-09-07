@@ -12,7 +12,7 @@ const Why = () => (
         <div className={styles.pictureStack}>
           <h2><mark>Why</mark> Purple Sector</h2>
           <div><img role="presentation" alt="" src={groupPic} /></div>
-          <Link className="learnBtn" to="/about">Learn more about us</Link>
+          <Link className="learnBtn" to="/about">What drives us</Link>
         </div>
         <div className={styles.cardStack}>
           <div className="card right">

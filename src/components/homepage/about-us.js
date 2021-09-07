@@ -34,7 +34,7 @@ const AboutUs = () => (
         <div className={styles.pictureStack}>
           <h2>We can <mark>help</mark> you</h2>
           <img role="presentation" alt="" src={img2}/>
-          <Link className="learnBtn" to="/services/">Our Services</Link>
+          <Link className="learnBtn" to="/services/">Align your team</Link>
         </div>
       </div>
     </div>

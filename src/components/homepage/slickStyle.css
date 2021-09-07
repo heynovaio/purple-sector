@@ -64,15 +64,27 @@
 .slick-prev,.slick-next{
 	width: 30px;
 }
+.slick-dots li, .slick-dots li button{
+	height: 25px;
+	width: 25px;
+}
+.slick-dots li{
+	margin: 0 10px;
+}
 .slick-dots li button::before{
 	content: '';
 	-moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
   border-radius: 50px/50px;
-  border: solid 3px var(--theme-blue);
-  width: 15px;
-  height: 15px;
+  border: solid 5px var(--theme-blue);
+  width: 25px;
+  height: 25px;
   opacity: .75;
+  margin: 0;
+  padding: 0;
+}
+.slick-dots li button:focus::before, .slick-dots li button:hover::before{
+	border-width: 6px;
 }
 .slick-dots li.slick-active button::before {
     opacity: .75;

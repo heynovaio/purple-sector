@@ -11,8 +11,8 @@ const Hero = () => (
     <div className="ContentContainer">
       <div className={styles.heroBox}>
         <div className={styles.textBox}>
-          <h1>Our Services</h1>
-          <p>Here's how Purple Sector can work for you</p>
+          <h1>Our services</h1>
+          <p>Purple Sector Strategy provides tailored programs and packages to help drive positive change in your organization</p>
         </div>
       </div>
     </div>

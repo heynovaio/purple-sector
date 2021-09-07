@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
     <input className={styles.menuBtn} type="checkbox" id="menu"/>
     <label className={styles.menuIcon} htmlFor="menu"><span className={styles.navicon}></span></label>
     <ul className={styles.navMenu} id="navMenu">
-      <li><Link className={styles.navA} to="/about">About Us</Link></li>
+      <li><Link className={styles.navA} to="/about">About us</Link></li>
       <li><Link className={styles.navA} to="/services">Services</Link></li>
       <li><Link className={styles.navA} to="https://thepitwall.purplesector.ca/" target="_blank">Newsletter</Link></li>
-      <li><Link className={styles.navB} data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a Free Consult</Link></li>
+      <li><Link className={styles.navB} data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link></li>
     </ul>
   </header>
 )
