@@ -19,7 +19,7 @@ const Footer = () => (
           </div>
           <div className={styles.contactUs}>
             <h3>Contact us</h3>
-            <p>Email: <Link to="mailto:hello@purplesector.ca">hello@purplesector.ca</Link></p>
+            <p>Email: <a href="mailto:hello@purplesector.ca">hello@purplesector.ca</a></p>
             <h3>Follow us</h3>
             <div className={styles.flexIcons}>
               <Link className={styles.social} to="https://www.linkedin.com/company/purple-sector/" target="_blank"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>

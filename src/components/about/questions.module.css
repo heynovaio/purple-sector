@@ -84,10 +84,12 @@
 	opacity: 0;
 	transition: opacity .2s linear .2s;
 }
+.cardOuter a:focus img,
 .card:hover img{
 	opacity: 0.05;
 }
 
+.cardOuter a:focus h4,.cardOuter a:focus p,
 .card:hover h4,.card:hover p{
 	opacity: 1;
 }
