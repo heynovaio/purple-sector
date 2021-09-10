@@ -86,7 +86,7 @@ const WhoWeAre = () => (
             </div>
           </div>
           <div className={styles.btnWrap}>
-            <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Schedule a call with us</Link>
+            <Link className="learnBtn" data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Schedule a call with us</Link>
           </div>
         </div>  
       </div>

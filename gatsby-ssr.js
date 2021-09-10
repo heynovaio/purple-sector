@@ -1,7 +1,33 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
-
-// You can delete this file if you're not using it
+import React from "react"
+export const onRenderBody = (
+  { setPostBodyComponents },
+  pluginOptions
+) => {
+  setPostBodyComponents([
+    <>
+      <script 
+        key="fun_javascript"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};
+         `,
+        }}
+      />,
+      <script 
+        key="SavvyCal"
+        src="https://embed.savvycal.com/v1/embed.js"
+        type="text/javascript"
+        async
+      />,
+      <script
+        key="fun_javascript"
+        dangerouslySetInnerHTML={{
+          __html: `
+            SavvyCal('init')
+         `,
+        }}
+      />,
+       
+    </>
+  ])
+}

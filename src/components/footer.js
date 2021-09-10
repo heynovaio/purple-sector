@@ -15,7 +15,7 @@ const Footer = () => (
             <Link className={styles.navA} to="/about">About us</Link>
             <Link className={styles.navA} to="/services">Services</Link>
             <Link className={styles.navA} to="https://thepitwall.purplesector.ca" target="_blank" >Newsletter</Link>
-            <Link className={styles.navA} to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
+            <Link className={styles.navA} data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link>
           </div>
           <div className={styles.contactUs}>
             <h3>Contact us</h3>

@@ -37,7 +37,7 @@ const What = () => (
         <h2>Ready to start the conversation?</h2>
         <p>What would change about the work of your team if everyone had the clarity to move forward? Come learn more about how we can help you build better teams and better products. It all starts with a simple conversation.</p>
         <p>There are better ways to work. Let’s bring out the best of everyone.</p>
-        <Link className="learnBtn alt" to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
+        <Link className="learnBtn alt" data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link>
       </div>
     </div>
   </section>

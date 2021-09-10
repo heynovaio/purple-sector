@@ -30,7 +30,7 @@ const Approach = () => (
         </div>
       </div>
       <div className={styles.consultBtn}>
-        <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
+        <Link className="learnBtn" data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link>
       </div>
     </div>
     <div className={styles.sideBox}>

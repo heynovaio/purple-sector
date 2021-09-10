@@ -12,7 +12,7 @@ const Book = () => (
         <p>We’re driven by the question “Why wouldn’t we strive to make this more meaningful 
         for everyone involved?” Because when each member of the team is aligned around a 
         shared vision, we can build better teams and better products.</p>
-        <Link className="learnBtn alt" to="https://savvycal.com/purplesector/free-consult" target="_blank">Get in touch</Link>
+        <Link className="learnBtn alt" data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Get in touch</Link>
       </div>
     </div>
   </section>

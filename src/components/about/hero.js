@@ -29,7 +29,7 @@ const Hero = () => (
         whole team with a shared vision of success. That kind of alignment 
         is what we help our clients achieve.</p>
         <div>
-          <Link className="learnBtn" to="https://savvycal.com/purplesector/free-consult" target="_blank">Book a free consult</Link>
+          <Link className="learnBtn" data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link>
         </div>
       </div>
     </div>
