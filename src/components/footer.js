@@ -14,7 +14,7 @@ const Footer = () => (
           <div className={styles.navMenu}>
             <Link className={styles.navA} to="/about">About us</Link>
             <Link className={styles.navA} to="/services">Services</Link>
-            <Link className={styles.navA} to="https://thepitwall.purplesector.ca" target="_blank" >Newsletter</Link>
+            <Link className={styles.navA} to="https://thepitwall.purplesector.ca" rel="noopener" target="_blank" >Newsletter</Link>
             <Link className={styles.navA} data-savvycal-embed to="https://savvycal.com/purplesector/free-consult">Book a free consult</Link>
           </div>
           <div className={styles.contactUs}>
@@ -22,12 +22,12 @@ const Footer = () => (
             <p>Email: <a href="mailto:hello@purplesector.ca">hello@purplesector.ca</a></p>
             <h3>Follow us</h3>
             <div className={styles.flexIcons}>
-              <Link className={styles.social} to="https://www.linkedin.com/company/purple-sector/" target="_blank"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
-              <Link className={styles.social} to="https://twitter.com/purplesector_ca" target="_blank"><img role="presentation" alt="twitter Logo" src={twitter}/></Link>
+              <Link className={styles.social} rel="noopener" to="https://www.linkedin.com/company/purple-sector/" target="_blank" ariaLabel="Purple Sector's Linkedin"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
+              <Link className={styles.social} rel="noopener" to="https://twitter.com/purplesector_ca" target="_blank" ariaLabel="Purple Sector's Twitter"><img role="presentation" alt="twitter Logo" src={twitter}/></Link>
             </div>
           </div>
         </div>
-        <Link  to="/"><img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/></Link>
+        <Link to="/" aria-label="Homepage"><img role="presentation" alt="Purple Sector Logo" src={img1} className={styles.purpleIcon}/></Link>
       </div>
     </div>
 

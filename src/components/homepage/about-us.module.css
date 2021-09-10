@@ -26,8 +26,8 @@
 	.aboutUs {
 		background: url("../../images/curve-1-alt.svg");
 		background-repeat: no-repeat;
-		background-position: 90% top;
-		background-size: 217px;
+		background-position: 92% top;
+		background-size: 290px;
 	}
 }
 .topContent{
@@ -44,13 +44,13 @@
 @media screen and (min-width: 1170px){
 	.aboutUs:before{ 
 		height: 28px;
-		width: 46%;
+		width: 47%;
 		background: url("../../images/track-horizontal-1-alt.svg");
 		background-repeat: repeat-x;
 		content: '';
 		position: absolute;
 		right: 14%;
-	  top: 398px;
+	  top: 432px;
 	}
 }
 @media screen and (min-width: 1883px){
@@ -69,8 +69,8 @@
 	.bottomContent{ 
 		background: url("../../images/curve-2-alt.svg");
 		background-repeat: no-repeat;
-    background-position: 33% 19px;
-    background-size: 127px;
+    background-position: 33% 75px;
+    background-size: 122px;
 	}
 }
 .cardStack{
@@ -87,7 +87,7 @@
 }
 @media screen and (min-width: 1170px){
 	.cardStack:after{
-		width: 31px;
+		width: 27px;
 	  height: 114%;
 		background: url("../../images/track-vertical-1-alt.svg") #343448;
 		background-repeat: repeat-y;

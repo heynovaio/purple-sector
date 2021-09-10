@@ -12,13 +12,13 @@ export const onRenderBody = (
             window.SavvyCal=window.SavvyCal||function(){(SavvyCal.q=SavvyCal.q||[]).push(arguments)};
          `,
         }}
-      />,
+      />
       <script 
         key="SavvyCal"
         src="https://embed.savvycal.com/v1/embed.js"
         type="text/javascript"
         async
-      />,
+      />
       <script
         key="fun_javascript"
         dangerouslySetInnerHTML={{
@@ -26,7 +26,7 @@ export const onRenderBody = (
             SavvyCal('init')
          `,
         }}
-      />,
+      />
        
     </>
   ])

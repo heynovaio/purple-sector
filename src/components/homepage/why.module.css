@@ -43,7 +43,7 @@
 }
 @media screen and (min-width: 1170px){
 	.cardStack:after{
-		width: 31px;
+		width: 27px;
 	  height: 111%;
 		background: url("../../images/track-vertical-1-alt.svg") #343448;
 		background-repeat: repeat;
