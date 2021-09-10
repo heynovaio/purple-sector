@@ -45,8 +45,8 @@
 	.cardStack:after{
 		width: 31px;
 	  height: 111%;
-		background: url("../../images/track-vertical-1.svg");
-		background-repeat: repeat-y;
+		background: url("../../images/track-vertical-1.svg") #343448;
+		background-repeat: repeat;
 		content: '';
 		position: absolute;
 	  right: 330px;
