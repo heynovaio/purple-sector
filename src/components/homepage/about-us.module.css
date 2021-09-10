@@ -23,11 +23,11 @@
 	top: 15rem;
 }
 @media screen and (min-width: 1170px){
-	.aboutUs > div {
+	.aboutUs {
 		background: url("../../images/curve-1.svg");
 		background-repeat: no-repeat;
-		background-position: 
-			right top;
+		background-position: 90% top;
+		background-size: 217px;
 	}
 }
 .topContent{
@@ -42,15 +42,20 @@
 	}
 }
 @media screen and (min-width: 1170px){
-	.topContent:after{ 
+	.aboutUs:before{ 
 		height: 28px;
-		width: 48%;
+		width: 46%;
 		background: url("../../images/track-horizontal-1.svg");
 		background-repeat: repeat-x;
 		content: '';
 		position: absolute;
-		right: 15%;
-	  top: 397px;
+		right: 14%;
+	  top: 398px;
+	}
+}
+@media screen and (min-width: 1883px){
+	.aboutUs:before{ 
+		width: 43%;
 	}
 }
 .bottomContent{
@@ -64,8 +69,8 @@
 	.bottomContent{ 
 		background: url("../../images/curve-2.svg");
 		background-repeat: no-repeat;
-    background-position: 33% 17px;
-    background-size: 133px;
+    background-position: 33% 19px;
+    background-size: 127px;
 	}
 }
 .cardStack{
