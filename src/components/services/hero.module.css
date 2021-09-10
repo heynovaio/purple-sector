@@ -18,8 +18,8 @@
 .shapeBox{
 	width:  370px;
   position: absolute;
-  right: 60px;
-  top: 20px;
+  right: 59px;
+  top: -10px;
 	height: auto;	
 }
 .shapeBox img{
