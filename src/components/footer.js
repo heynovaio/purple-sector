@@ -22,8 +22,8 @@ const Footer = () => (
             <p>Email: <a href="mailto:hello@purplesector.ca">hello@purplesector.ca</a></p>
             <h3>Follow us</h3>
             <div className={styles.flexIcons}>
-              <Link className={styles.social} rel="noopener" to="https://www.linkedin.com/company/purple-sector/" target="_blank" ariaLabel="Purple Sector's Linkedin"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
-              <Link className={styles.social} rel="noopener" to="https://twitter.com/purplesector_ca" target="_blank" ariaLabel="Purple Sector's Twitter"><img role="presentation" alt="twitter Logo" src={twitter}/></Link>
+              <Link className={styles.social} rel="noopener" to="https://www.linkedin.com/company/purple-sector/" target="_blank" aria-label="Purple Sector's Linkedin"><img role="presentation" alt="LinkedIn Logo" src={linkedIn}/></Link>
+              <Link className={styles.social} rel="noopener" to="https://twitter.com/purplesector_ca" target="_blank" aria-label="Purple Sector's Twitter"><img role="presentation" alt="twitter Logo" src={twitter}/></Link>
             </div>
           </div>
         </div>
