@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
             to deliberately reflect on the current state of our team and intentionally 
             consider how we want to evolve. These are important conversations, but it’s 
             hard to create space to reflect on team dynamics when the pressure is on 
-            everyday. Not only did Purple SectorCarlos and Meredith help us structure 
+            everyday. Not only did Purple Sector help us structure 
             the conversation, but they provided a lean way to articulate our roles so 
             we could refer back to them and make updates as needed. The clarity they 
             provided is already paying off.</blockquote>

@@ -27,6 +27,13 @@ export const onRenderBody = (
          `,
         }}
       />
+      <script 
+        key="Fathom"
+        src="https://cdn.usefathom.com/script.js"
+        type="text/javascript"
+        data-site="LGJPUNLM"
+        defer
+      />
        
     </>
   ])
