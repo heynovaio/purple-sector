@@ -3,7 +3,7 @@ module.exports = {
     title: `Purple Sector Strategy`,
     titleTemplate: `%s`,
     description: `Creating the conditions to capture knowledge, shape plans, and activate people around what matters most to your business through facilitated sessions.`,
-    url: `https://purplesector.ca`,
+    siteUrl: `https://purplesector.ca`,
     image: '/static/meta-image.jpg',
     twitterUsername: `@purplesector_ca`,
   },
