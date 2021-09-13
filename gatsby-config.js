@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: `%s`,
     description: `Creating the conditions to capture knowledge, shape plans, and activate people around what matters most to your business through facilitated sessions.`,
     url: `https://purplesector.ca`,
-    image: `/static/meta-image.jpg`, // Path to your image you placed in the 'static' folder
+    image: '/static/meta-image.jpg',
     twitterUsername: `@purplesector_ca`,
   },
   plugins: [
@@ -15,6 +15,7 @@ module.exports = {
         // For all the options check babel-plugin-react-css-modules README link provided above
       }
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
