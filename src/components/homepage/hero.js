@@ -11,10 +11,10 @@ const Hero = () => (
     <div className="ContentContainer">
       <div className={styles.heroBox}>
         <div className={styles.textBox}>
-          <h1>We align product teams around 
+          <h1>Align your team around 
             a <mark>shared</mark> vision
           </h1>
-          <p>Creating the conditions to capture knowledge, shape plans, and activate people around what matters most.
+          <p>Work with us to create the conditions to capture knowledge, shape plans, and activate people around what matters most.
           </p>
           <Link className="learnBtn" aria-label="Learn more by booking a free consult" to="/services">Work with us</Link>
           </div>
