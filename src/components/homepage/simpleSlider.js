@@ -36,6 +36,13 @@ export default class SimpleSlider extends Component {
             <p className="h4">Ellen Roberto, Product Manager in Healthcare Software</p>
           </div>
           <div className="slickItem">
+            <blockquote>The Purple Sector team helped provide a thoughtful and planned 
+            approach to aligning our team around our organization's strategy and goals. With their help, we
+            have been able to architect repeatable processes that ensure our team is able to understand, 
+            map, and execute against a shared vision.</blockquote>
+            <p className="h4">Sam Bramley, CEO, Cloudstacks</p>
+          </div>
+          <div className="slickItem">
             <blockquote>One of my key responsibilities as a leader is getting a multi-disciplinary 
             team to work towards a common goal. Purple Sector's approach helped me structure 
             conversations about customer needs and gave me the tools to align my team around 
